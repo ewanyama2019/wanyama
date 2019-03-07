@@ -15,7 +15,7 @@ sh "docker build -t wanyama:latest ."
 }
 
 stage('Docker login to hub'){
-sh "docker login -u 'ewanyamadockerxt' -p '1Mdcccl3x3' "
+sh "docker login -u 'xxxx' -p 'yyyy' "
 }
 
 stage('Apply docker tag ') {
